@@ -8,7 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
-	<title>ABE Template 2018 | BS4 Template</title>
+	<title>Graph With Salaries </title>
 	<style>
 		/*custom page css here*/
 		#bargraph {
@@ -29,8 +29,12 @@
 
 <body>
 	<!-- HTML here. -->
-	<h1>Bootstrap 4 template</h1>
-	<p><a href="index.html" class="btn-primary btn">Back to Home</a></p>
+<?php
+require_once "nav.php"
+
+;?>
+    
+    <h1>Graph Salaries</h1>
 	<div class="fluid-container">
 		<div class="row">
 			<div id="graph" class="col">
