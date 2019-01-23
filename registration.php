@@ -48,12 +48,9 @@
             <input type="submit" value="Register" required>
         </form>
 
-
-
-
-
-
-    </div>
+        </div>
+    
+    <p>Note : All salary information will only contain the first name and salary amount</p>
 </body>
 
 </html>
