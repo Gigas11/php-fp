@@ -6,7 +6,7 @@
 	color:#f00;
 }
 nav{
-	background-color:#427796;
+	background-image: linear-gradient(to right, #427796, gray);
 	padding: 2px;
 }
 nav ul{
@@ -21,5 +21,13 @@ nav a, nav a:visited {
 	color: lightgray;
 	text-decoration: none;
 }
-
+#regback {
+            background-image: url(../images/regback1.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+}
+#regback img{
+            opacity: 0.1;
+        }
 

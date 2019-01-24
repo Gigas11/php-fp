@@ -18,7 +18,7 @@
             background-position: center;
         }
         
-        img {
+        body.img {
             opacity: 0.1;
         }
 

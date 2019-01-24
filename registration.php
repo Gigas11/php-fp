@@ -13,16 +13,17 @@
         }
 
     </style>
+    
     <title>Registration Here!</title>
 
 </head>
 
-<body>
+<body id="regback">
     <?php require_once('nav.php')
     ?>
 <br><br>
-    <div class="container">
-        <h1 class="groove">Registration</h1>
+    <div class="container groove" >
+        <h1>Registration</h1>
         <form class="groove" action="assets/data/process.php" method="post" enctype="multipart/form-data">
             <label>First Name <br>
 				<input type="text" name="fName" required>
@@ -51,6 +52,9 @@
         </div>
     
     <p>Note : All salary information will only contain the first name and salary amount</p>
+    
+    <?php require_once('footer.php') 
+    ?>
 </body>
 
 </html>
